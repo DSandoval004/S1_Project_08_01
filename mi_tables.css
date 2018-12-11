@@ -14,11 +14,53 @@
 */
 
 /* Table Styles */
+table {
+    background: linear-gradient(rgb(190, 215, 255), black);
+    border: 5px solid gray;
+    /* I didn't see anything talking about this in the instructions, but the image show these. */
+    width: 80%;
+    margin: 50px auto;
+}
 
+td {
+    border: 3px solid gray;
+    line-height: 1.4em;
+    padding: 8px;
 
+    color: white;
+    font-size: 0.9em;
+    vertical-align: top;
+}
+
+th {
+    border: 3px solid gray;
+    line-height: 1.4em;
+    padding: 8px;
+
+    background-color: black;
+    color: rgb(130, 210, 255);
+    font-weight: normal;
+}
 
 /* Column Styles */
+col#firstcol {
+    width: 24%;
+}
 
-
+col#dataCol {
+    width: 19%;
+}
 
 /* Table Header Styles */
+thead {
+    height: 60px;
+}
+
+thead th#theadThFirst {
+    font-size: 2em;
+}
+
+thead th.theadTopRow {
+    background: transparent;
+    color: black;
+}
