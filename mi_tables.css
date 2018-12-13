@@ -14,10 +14,11 @@
 */
 
 /* Table Styles */
+/* Applies styles to the table, gives it a linear gradient as the background, and a solid 5px gray border. Then I set the width and gave it margins to make it look more loke the image they show as the example. Then stylized the table data and table header cells. */
 table {
     background: linear-gradient(rgb(190, 215, 255), black);
     border: 5px solid gray;
-    /* I didn't see anything talking about this in the instructions, but the image show these. */
+    /* I didn't see anything talking about this in the instructions, but the image show these styles. */
     width: 80%;
     margin: 50px auto;
 }
@@ -37,12 +38,13 @@ th {
     line-height: 1.4em;
     padding: 8px;
 
+    font-weight: normal;
     background-color: black;
     color: rgb(130, 210, 255);
-    font-weight: normal;
 }
 
 /* Column Styles */
+/* Changed the width of the first column and the width of the columns after that. */
 col#firstcol {
     width: 24%;
 }
@@ -52,6 +54,7 @@ col#dataCol {
 }
 
 /* Table Header Styles */
+/* Set the height of the table head, changed the font size of the first cell using an id to just select it, then made the background transparent and font color black to the first row using a class cause I am selecting multiple elements. */
 thead {
     height: 60px;
 }
